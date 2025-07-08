@@ -91,7 +91,7 @@
 ## 👨🏻‍💻 Project Summary
 
 
-1. 2024.10 ~ 2024.11(5주)    **기획이 어려운 SSAFY인을 위한 [SSAFY 프로젝트 기획 보조] 서비스 (GoodIdea)[CRDT] [자세히보기](https://www.notion.so/14a0e1c04cf981a38f6fe79c73fb7341?pvs=21)**
+1. 2024.10 ~ 2024.11(5주)    **기획이 어려운 SSAFY인을 위한 [SSAFY 프로젝트 기획 보조] 서비스 (GoodIdea)[CRDT] ![자세히보기](https://raw.githubusercontent.com/DDARK00/ddark00.github.io/refs/heads/main/assets/ideawebp.webp)**
     - SSAFY 프로젝트 기획을 돕는 실시간 협업 및 산출물 관리 플랫폼
     - **주요 담당 기능**
         - 마인드맵
@@ -102,7 +102,7 @@
         - 산출물 관리
             - 프로젝트 명세서, ERD, API 문서 등 자동화된 산출물 생성 및 업데이트
 
-1. 2024.08~ 2024.10(8주)    **희귀 거북이의 생애 관리와 안전한 거래를 돕는 통합 플랫폼 (KKOBUKZIP)[BlockChain] [자세히보기](https://www.notion.so/14a0e1c04cf9813ca3c1ec1f782c5408?pvs=21)**
+1. 2024.08~ 2024.10(8주)    **희귀 거북이의 생애 관리와 안전한 거래를 돕는 통합 플랫폼 (KKOBUKZIP)[BlockChain] ![자세히보기](https://raw.githubusercontent.com/DDARK00/ddark00.github.io/refs/heads/main/assets/zip.webp)**
     - 인공증식, 양도/양수, 폐사까지 희귀 거북이의 생애 전반을 관리하며, 거래 서류 등록과 승인 과정을 간소화하여 합법적이고 안전한 거래를 지원하는 플랫폼.
     - **주요 담당 기능**
         - 거래
@@ -111,7 +111,7 @@
         - **경매**
             - 경매 진행 및 낙찰 기능
 
-1. 2024.07~ 2024.08 (6주)   **워크와 삶의 균형을 돕는 올인원 워케이션 플랫폼 (WAVA)[WebRTC] [자세히보기](https://www.notion.so/WebRTC-14a0e1c04cf981acb284f41be4666dd4?pvs=21)**
+1. 2024.07~ 2024.08 (6주)   **워크와 삶의 균형을 돕는 올인원 워케이션 플랫폼 (WAVA)[WebRTC] ![자세히보기](https://raw.githubusercontent.com/DDARK00/ddark00.github.io/refs/heads/main/assets/wavagif.gif)**
     - 워케이션(Work + Vacation) 정보 제공, 일정 관리, AI 비서, 소셜 네트워킹, 공유 지도 및 실시간 커뮤니케이션 기능을 통해 워케이션 환경에서의 생산성과 소통을 극대화하는 플랫폼
     - **주요 담당 기능**
         - 통합 워케이션 정보 제공
@@ -128,7 +128,7 @@
 1. 그 밖의 프로젝트
     - 전주 아이스하키 경기장의 스코어 보드(전광판) 프로그램 제작
         
-        ![image.png](https://file.notion.so/f/f/bfca6bae-9d87-4567-b8c6-c5df111cfe63/4f99efe9-5b36-4c6e-9810-e28967ce6d06/image.png?table=block&id=17c0e1c0-4cf9-8059-8390-fbc2ed760326&spaceId=bfca6bae-9d87-4567-b8c6-c5df111cfe63&expirationTimestamp=1745935200000&signature=t8W68che2h4szlAVIxGkNPne5uzCvK1lcbtVOBOUnk0&downloadName=image.png)
+        ![hockey.webp](https://raw.githubusercontent.com/DDARK00/ddark00.github.io/refs/heads/main/assets/hockey.webp)
         
         - 제작 : 2023 React+Express로 제작
         - 애자일 정신론으로 수차례 사용 및 피드백 후 제작을 완료
@@ -136,14 +136,14 @@
         
     - 유기 동물 조회 서비스 제작
         
-        ![image.png](https://file.notion.so/f/f/bfca6bae-9d87-4567-b8c6-c5df111cfe63/cb574b9a-3b3a-4dab-99fd-21baf2dce714/image.png?table=block&id=17c0e1c0-4cf9-8038-8214-f0625e6e70da&spaceId=bfca6bae-9d87-4567-b8c6-c5df111cfe63&expirationTimestamp=1745935200000&signature=pBU_bImW8imYhhv9QnGjucjcX0jQXvLzJjh806zFEwc&downloadName=image.png)
+        ![abandoned_animals.webp](https://raw.githubusercontent.com/DDARK00/ddark00.github.io/refs/heads/main/assets/abandoned_animals.webp)
         
         - 제작 : 2022, React + 바닐라CSS + OpneAPI 로 제작
         - [https://42273.github.io/pets/](https://42273.github.io/pets/) 깃허브 페이지스를 통해 호스팅
         
     - 에어비앤비 클론 프로젝트
         
-        ![image.png](https://file.notion.so/f/f/bfca6bae-9d87-4567-b8c6-c5df111cfe63/66ca81c4-90a0-4885-9baf-2a3a3ab83371/image.png?table=block&id=17c0e1c0-4cf9-804c-98e0-cb6382b13384&spaceId=bfca6bae-9d87-4567-b8c6-c5df111cfe63&expirationTimestamp=1745935200000&signature=TJb8ExhBviuK030oEg9Ehl-lJ1c29eXfA98CS2KT-zE&downloadName=image.png)
+        ![bnb_clone.webp](https://raw.githubusercontent.com/DDARK00/ddark00.github.io/refs/heads/main/assets/bnb_clone.webp)
         
         - 제작 : 2022, Next.js(ts) + Express + MongoDB, Vercel을 통해 호스팅[[링크]](https://cloneprojectapp.vercel.app/)
         - 가입, 방 등록, 예약 및 결제(페이팔) 등의 구현 완료
