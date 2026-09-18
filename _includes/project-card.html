@@ -1,0 +1,58 @@
+{%- comment -%}
+프로젝트 카드 하나를 렌더링하는 템플릿.
+_data/projects.yml의 각 항목이 `project`로 전달되어 들어옵니다.
+카드를 추가/수정할 때는 이 파일이 아니라 _data/projects.yml만 건드리면 됩니다.
+{%- endcomment -%}
+{%- assign c = project.color -%}
+{%- case c -%}
+  {%- when 'blue' -%}
+    {%- assign overlay_bg = 'bg-blue-600' -%}
+    {%- assign overlay_text = 'text-blue-100' -%}
+    {%- assign tag_bg = 'bg-blue-800' -%}
+    {%- assign link_color = 'text-blue-600 hover:text-blue-800' -%}
+  {%- when 'purple' -%}
+    {%- assign overlay_bg = 'bg-purple-600' -%}
+    {%- assign overlay_text = 'text-purple-100' -%}
+    {%- assign tag_bg = 'bg-purple-800' -%}
+    {%- assign link_color = 'text-purple-600 hover:text-purple-800' -%}
+  {%- when 'green' -%}
+    {%- assign overlay_bg = 'bg-green-600' -%}
+    {%- assign overlay_text = 'text-green-100' -%}
+    {%- assign tag_bg = 'bg-green-800' -%}
+    {%- assign link_color = 'text-green-600 hover:text-green-800' -%}
+  {%- when 'amber' -%}
+    {%- assign overlay_bg = 'bg-amber-600' -%}
+    {%- assign overlay_text = 'text-amber-100' -%}
+    {%- assign tag_bg = 'bg-amber-800' -%}
+    {%- assign link_color = 'text-amber-600 hover:text-amber-800' -%}
+{%- endcase -%}
+<div class="project-card flex flex-col bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
+    <div class="relative h-60 xl:h-72 overflow-hidden">
+        <img src="{{ project.image }}" alt="{{ project.alt }}" class="w-full h-full object-cover">
+        <div class="absolute inset-0 {{ overlay_bg }} bg-opacity-90 project-overlay opacity-0 flex flex-col justify-center p-5 xl:p-6">
+            <h3 class="text-white text-lg xl:text-xl font-bold mb-1.5 leading-snug">{{ project.overlay_title }}</h3>
+            <p class="{{ overlay_text }} text-sm mb-3 line-clamp-3">{{ project.overlay_desc }}</p>
+            <div class="flex flex-wrap gap-1.5">
+                {%- for tag in project.tags -%}
+                <span class="px-2.5 py-1 {{ tag_bg }} bg-opacity-50 text-white rounded-full text-xs">{{ tag }}</span>
+                {%- endfor -%}
+            </div>
+        </div>
+    </div>
+    <div class="p-6 flex flex-col flex-1">
+        <div class="flex-1">
+            <h3 class="text-xl font-bold mb-2">{{ project.card_title }}{% if project.card_title_suffix %}<span class="text-md"> {{ project.card_title_suffix }} </span>{% endif %}</h3>
+            <p class="text-gray-600 mb-4">
+                {{ project.card_desc }}
+            </p>
+        </div>
+        <div class="flex justify-between items-center mb-1">
+            <a target="_blank" href="{{ project.view_url }}" class="{{ link_color }} font-medium flex items-center">
+                View Project <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+            <a target="_blank" href="{{ project.github_url }}" class="text-gray-500 hover:text-gray-700">
+                <i class="fab fa-github text-xl"></i>
+            </a>
+        </div>
+    </div>
+</div>

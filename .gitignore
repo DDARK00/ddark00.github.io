@@ -1,0 +1,15 @@
+# Jekyll 빌드 산출물 (jekyll serve / jekyll build 할 때마다 생성됨, 소스가 아님)
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler (Gemfile을 나중에 추가하게 되면 여기서 커버됨)
+.bundle/
+vendor/bundle/
+
+# macOS
+.DS_Store
+
+# 에디터
+.vscode/
+*.swp
