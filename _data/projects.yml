@@ -1,0 +1,48 @@
+# 프로젝트 카드 데이터
+# 하나 추가할 때는 이 목록 끝에 항목만 추가하면 index.html의 반복문(_includes/project-card.html)이 알아서 렌더링합니다.
+# color는 blue / purple / green / amber 중 하나를 쓰세요 (project-card.html에 매핑된 색상만 지원).
+
+- color: blue
+  image: "https://raw.githubusercontent.com/DDARK00/ddark00.github.io/refs/heads/main/assets/ideawebp.webp"
+  alt: "Proposal Dashboard Project"
+  overlay_title: "서비스 개발 기획 보조용 슈퍼앱"
+  overlay_desc: "기획이 어려운 SSAFY인을 위한 [SSAFY 프로젝트 기획 보조] 서비스 “GoodIdea”"
+  tags: [JavaScript, Tailwind, React, Docker, Zustand, CRDT]
+  card_title: "개발 기획 보조 슈퍼앱"
+  card_title_suffix: "“GoodIdea”"
+  card_desc: "실시간 협업(CRDT)과 AI 기획서 자동생성을 지원하는 React기반의 서비스 기획 슈퍼앱"
+  view_url: "https://cooperative-wolfsbane-091.notion.site/14a0e1c04cf981a38f6fe79c73fb7341"
+  github_url: "https://github.com/DDARK00/C105"
+
+- color: purple
+  image: "https://raw.githubusercontent.com/DDARK00/ddark00.github.io/refs/heads/main/assets/zip.webp"
+  alt: "Turtle Platform Project"
+  overlay_title: "희귀 거북이 관리/거래 플랫폼"
+  overlay_desc: "인공증식, 양도/양수, 폐사 서류 관리와 경매 기능을 통해 희귀동물 양육자와 정부 간 효율적인 개체 관리 및 안전한 거래 서비스를 제공하는 프로젝트 “꼬북ZIP”"
+  tags: [TypeScript, Vite, React, Tailwind, WebSocket, SOLIDITY]
+  card_title: "희귀 거북이 관리 플랫폼"
+  card_desc: "블록체인을 활용하여 희귀동물인 거북이의 인공증식, 양도/양수, 폐사까지 생애 주기 관리와 안전한 거래 및 경매를 지원하는 플랫폼 제공"
+  view_url: "https://cooperative-wolfsbane-091.notion.site/14a0e1c04cf9813ca3c1ec1f782c5408"
+  github_url: "https://github.com/DDARK00/C107"
+
+- color: green
+  image: "assets/wavagif.webp"
+  alt: "Workation Management App"
+  overlay_title: "올인원 워케이션 플랫폼 개발 프로젝트"
+  overlay_desc: "워케이션 정보 제공과 커뮤니케이션 기능을 통해 사용자에게 생산성 극대화와 소통을 제공하는 프로젝트 “WAVA”"
+  tags: [JavaScript, React, WebRTC, WebSocket, Zustand]
+  card_title: "워케이션 플랫폼 개발 프로젝트"
+  card_desc: "워케이션 정보 제공, WebRTC/WebSocket 을 활용한 그룹채팅 및 공유지도로 강력한 커뮤니티 기능을 제공하는 서비스"
+  view_url: "https://cooperative-wolfsbane-091.notion.site/WebRTC-14a0e1c04cf981acb284f41be4666dd4"
+  github_url: "https://github.com/DDARK00/WAVA"
+
+- color: amber
+  image: "assets/lotto.webp"
+  alt: "Korean Lotto Checker Project"
+  overlay_title: "로또 당첨 확인 & JS/Wasm 벤치마크 프로그램"
+  overlay_desc: "매주 산 번호를 고정했다면 지금까지 얼마를 땄을지 1,240여 회차 전체와 대조해 계산해주는 개인 프로젝트 “로또 당첨 확인기”"
+  tags: [Python, C++, WebAssembly, React, TypeScript, GitHub Actions]
+  card_title: "로또 당첨 확인기"
+  card_desc: "번호 6개를 고정해 매주 샀다고 가정했을 때 전 회차 당첨 데이터와 대조해 총 당첨금을 계산하는 서비스"
+  view_url: "https://ddark00.github.io/Korean-Lotto/"
+  github_url: "https://github.com/DDARK00/Korean-Lotto"
